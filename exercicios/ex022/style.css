@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div.quadrado{
+    width: 300px;
+    height: 300px;
+    border-radius: 7px;
+    background-color: darkgray;
+    display: block;
+    margin: 10px auto;
+    
+    
+}
+
+#q1{
+    background-color: blue;
+    
+}
+#q2{
+    background-color: yellow;
+    
+}
+#q3{
+    background-image: url(imagens/pattern001.png);
+    
+}
+#q1:hover{
+    transition: 1s;
+    background-color: aqua;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+#q2:hover{
+    transition: 1s;
+    background-image: linear-gradient(to bottom, yellow , red);
+    border: 3px solid white;
+    border-radius: 15px;
+    
+}
+#q3:hover{
+    transition: 1s;
+    background-image: url(imagens/pattern002.png);
+    border: 3px solid white;
+    border-radius: 15px;
+}
+body{
+    background-image: url(imagens/pattern007.png);
+}
