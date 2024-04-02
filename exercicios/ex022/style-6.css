@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100vh;
+    background-color: darkgrey;
+    background-image: url(imagens/wallpaper002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    background-color: white;
+    max-width: 800px;
+    margin: 10px auto 0px auto;
+    padding: 10px;
+    border: 2px solid darkgrey;
+    border-radius: 10px;
+}
+main>h1{
+    margin-bottom: 10px;
+    text-align: center;
+}
+main>p{
+    margin: 10px ;
+    text-align: justify;
+}
