@@ -1,0 +1,49 @@
+@charset "UTF-8";
+*{
+    height: 100%;
+}
+
+body{
+    font: 1em arial;
+    height: auto;
+     /*
+     Medidas Absolutas
+     cm, mm e px
+     Medidas relativas
+     em, ex e rem
+     */
+     background-image: linear-gradient(to right, rgb(138, 138, 138), rgba(35, 35, 75, 0.651)
+     );
+     /*
+     começa o alinhamento aqui
+     */
+
+    }
+    h1{
+        font-size: 3em;
+        text-align: center;
+    }
+    h2{
+        font-size: 2em;
+        text-align: right;
+    }
+    p{
+        text-align: justify;
+        text-indent: 10px;
+    }
+
+
+main{
+    background-color: white;
+    margin: auto;
+    max-width: 1000px ;
+    padding: 15px;
+    border-radius: 10px;
+    height: auto;
+    box-shadow: 1px 5px 6px rgb(31, 30, 30);
+}
+  
+        
+
+
+    

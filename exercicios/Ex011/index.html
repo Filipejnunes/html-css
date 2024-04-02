@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{background-color: darkgrey;}
+    </style>
+    <link rel="shortcut icon" href="img/Star-incone.ico" type="image/x-icon">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Mídias</h1>
+    <hr>
+    <h2>Imagem</h2>
+    <p>Tente abrir este sité por varias plataformas</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="Foto pintada com uma letra no meio">
+    </picture>
+    <hr>
+    <h2>Áudio</h2>
+    <p>Vamos reproduzir um Áudio em HTML:</p>
+    <audio preload="metadata" controls>
+        <source src="media/better-day.mp3" type="audio/mpeg">
+        <p>infelizmente não deu para caregero audio </p>
+    </audio>
+    <audio preload="metadata">
+        <source src="media/better-day.mp3" type="audio/mpeg">
+    </audio>
+    
+    <hr>
+</body>
+</html>
