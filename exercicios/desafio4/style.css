@@ -17,13 +17,13 @@
  
 @font-face {
     font-family:"adroid2" ;
-    src: url("ethnocentric rg.otf")
+    src: url("fontes/ethnocentric rg.otf")
     format("opentype");
     font-weight:normal
 }
 @font-face{
     font-family:"adroid" ;
-    src: url("idroid.otf")
+    src: url("fontes/idroid.otf")
     format("opentype");
     font-weight: normal;
 }
