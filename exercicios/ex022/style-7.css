@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+#container{
+    position: relative;
+    padding: 10px;
+    height: 90vh;
+    background: darkgray url(imagens/target001.png) center center no-repeat ;
+    background-size: 100% 100%;
+
+}
+#conteudo{
+    background: yellow url(imagens/target001.png) center center no-repeat;
+    background-size: ;
+
+    position: absolute;
+    height: 200px;
+    background-color: yellow;
+    width: 400px;
+    
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
