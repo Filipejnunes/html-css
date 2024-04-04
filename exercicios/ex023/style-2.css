@@ -10,8 +10,17 @@ table{
     width: 500px;
     
     border-collapse: collapse;
+    position: relative;
 }
 thead,tfoot{
     background-color: darkgray;
     color: white;
+}
+tbody tr:nth-child(2n){
+background-color: lightgray;
+}
+thead>tr>th{
+    position: sticky;
+    top: -1px;
+    background-color: black;
 }
