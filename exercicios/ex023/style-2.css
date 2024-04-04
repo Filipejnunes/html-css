@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+td,th{
+    border: 1px solid black;
+    text-align: center;
+
+}
+table{
+    width: 500px;
+    
+    border-collapse: collapse;
+}
+thead,tfoot{
+    background-color: darkgray;
+    color: white;
+}
