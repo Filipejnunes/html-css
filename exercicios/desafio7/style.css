@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+table{
+    width: 400px;
+    border-collapse: collapse;
+    text-align: center;
+    
+
+    
+}
+th,td{
+    border: 1px solid black;
+    
+}
+.corc{
+    color: white;
+    background-color: rgb(95, 95, 95);
+}
