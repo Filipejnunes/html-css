@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exmplo de formulário</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="icid">Cidade:</label>
+            <select name="cid" id="icid" required>
+                <option value="" selected>--Escolha--</option>
+                <optgroup label="Oeste">
+                    <option value="cm" >  Câmera de Lobos</option>
+                </optgroup>
+                <optgroup label="Este">
+                    <option value="mc">Machico</option>
+                    <option value="Fc">Funchal</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profição</label>
+            <input type="text" name="prof" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option value="ADM">Ademistrador</option>
+                <option value="PROG">Progamador</option>
+                <option value="BOMB">Bombero</option>
+                <option value="DEV">Desevovedor</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem <br></label>
+            <textarea name="msg" id="img" cols="15" rows="2"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
