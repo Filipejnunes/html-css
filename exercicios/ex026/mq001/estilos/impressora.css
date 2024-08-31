@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* Estilo para imprimir */
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+}
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+menu{
+    display: none;
+
+}
+article::after{
+    content: "Este conteodo fui impreso pelo site Filipe";
+}
