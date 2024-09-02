@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /*Em pé*/
+
+body{
+    background: url(img/cev-portrait.jpg) center bottom no-repeat;
+    background-size: contain;
+}
