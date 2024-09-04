@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/*telas*/
+
+@media screen and (min-width:992px) /*pc e mais*/{
+    #menu1{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+    li{
+        display: inline;
+        margin: 15px;
+        border-radius: 10px;
+    }
+    
+    header{
+        padding: 15px;
+    }
+
+    main{
+        width: 50vw;
+    }
+}
+@media screen and (min-width:905px) and (max-width:992px) { /*tablet*/
+    menu{
+        display: block;
+    }
+    li{
+        display: inline;
+        margin: 15px;
+        border-radius: 10px;
+    }
+    header{
+        padding: 15px;
+    }
+    #menu1{
+        display: none;
+    }
+    main{
+        width: 90vw;
+    }
+}
+
+@media print { /*print*/
+    body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body>header>h1{
+        text-shadow: none;
+        color: black;
+    }
+    a{
+        display: none;
+    }
+    article::after{
+        font-size: large;
+        content: "Site feito por Filipe";
+    }
+   #menu1 {
+        display: none;
+    }
+}
